@@ -1,0 +1,330 @@
+/* navbar */
+.navbar {
+   position: fixed;
+   top: 30px;
+   width: 100%;
+   background: rgba(9, 75, 151, 0.726);
+   font-size: 2vw;
+}
+
+.navbar a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none; 
+   float: left;
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-family: helvetica;
+}
+
+.navbar a:hover {
+   color:rgba(49, 49, 49, 0.911);
+   font-weight: lighter;
+}
+
+/* 1.Part Wellcome (1.Foto) div1 */
+#div1 {
+   background-image: url("file:///C:/Users/y/Downloads/matt-dodd-l18iQ57ZvyE-unsplash.jpg");
+   /* background-image: url(""); image için mutlaka url yazmalıyız */
+
+   background-size: cover; /* ekranın tamamını kaplar */
+   /* background-size: contain; */ /* ekranda resmin dikey olarak ekrana sığmasını sağlar */
+   background-repeat: no-repeat; /* resim 1 kere çıkar. tekrar etmez */
+
+   height: 100vh; /* 100 vh kullandığımız için body ekranın tamamını kaplar */
+   background-position: center; /* fotoğrafı merkeze alıyor */
+   margin: -7px;
+   border: 0px;
+   padding: 5% 13% 20% 13%;
+}
+
+#div1 p {
+   font-size: 10vw;
+   text-align: center;
+   color: rgb(74, 62, 243);   
+   letter-spacing: 1px; /* harfler arasındaki boşlukları belirlememize yarar */
+   /* line-height: 150px; satırlar arasındaki boşlukları belirlememize yarar */
+   text-shadow: 2px 2px 2px gray; /* gölge oluşturur */
+   font-family: 'Charm', cursive;
+   margin: 2px; 
+   padding: 40px 0 0 0;
+}
+
+/* 2.Part My Skills,Table (2.Foto) div2 */
+#div2 {
+   background-image: url("file:///C:/Users/y/Downloads/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+   margin: -7px;
+   border: 0px;
+   padding: 5% 10% 10% 10%;
+}
+
+table {
+   font-size: 5vw;
+   width: 100%;
+   height: 80%; 
+   border-collapse: collapse;
+   padding: 2%;
+   border-top-style: none;  
+}
+
+caption {
+   text-shadow: 2px 2px 2px rgb(69, 163, 74);
+   font-family: 'Fredericka the Great', cursive;
+   color: rgb(43, 41, 212);
+   width: 100%; 
+   text-align: center;
+   font-size: 150%;
+}
+
+/* table başlık kısmı */
+#th1 {
+   background:none;
+   width: 25%;
+   
+}
+#th2 {
+   background-image: linear-gradient(rgba(223, 245, 205, 0.925),rgb(66, 99, 0));
+   width: 25%;
+   border-radius: 15px 30px;
+   font-size:3vw ;  
+   padding: 0;
+   text-align: center;
+   border-collapse: collapse;
+   border-style: none;
+}
+#th3 {
+   background-image: linear-gradient(rgba(220, 235, 250, 0.89),rgb(26, 26, 190));
+   width: 25%;
+   border-radius: 15px 30px;
+   font-size:3vw ;  
+   padding: 0;
+   text-align: center;
+   border-collapse: collapse;
+   border-style: none;
+}
+#th4 {
+   background-image: linear-gradient(rgba(247, 240, 199, 0.884),rgb(126, 97, 3));
+   width: 25%;
+   border-radius: 15px 30px;  
+   font-size:3vw ;  
+   padding: 0;
+   text-align: center;
+   border-collapse: collapse;
+   border-style: none;
+}
+
+/* th {
+   font-size:3vw ;  
+   padding: 0;
+   text-align: center;
+   border-collapse: collapse;
+   border-style: none;
+} */
+
+td {
+   font-size: 2vw;
+   padding: 0;
+   text-align: center;
+   /* border: 2px solid rgb(197, 197, 197); */
+   border-collapse: collapse;
+}
+
+/* table da en soldaki td ler */
+#tdsol {
+   text-align: left;
+   font: bold;
+   font-size:3vw ;  
+   padding: 0;
+   border-collapse: collapse;
+   border-style: none;
+}
+
+/* ikonlar (yani yıldızlar) */
+#tdyesil i{
+   color:yellowgreen;
+   font-size: 3vw;
+}
+
+#tdblue i{
+   color:rgb(104, 104, 226);
+   font-size: 3vw;
+}
+
+#tdyellow i{
+   color:rgb(216, 174, 34);
+   font-size: 3vw;
+}
+
+/* 3.Part About Me (3.Foto) div3 */
+#div3 { 
+   background-image: url("file:///C:/Users/y/Downloads/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg");
+   background-size: cover;
+   background-repeat: no-repeat; 
+   height: 100vh; 
+   background-position: center;
+   margin: -7px;
+   border: 0px;
+   padding: 5% 10% 10% 10%;
+}
+
+#div3 div {
+   background-image: linear-gradient(rgba(0, 0, 175, 0.527),rgba(56, 135, 209, 0.342));
+   width: 100%; 
+   height: 100%;
+}
+
+#div3 h1 {
+   font-size: 7vw;
+   text-align: center;
+   color:white;
+   letter-spacing: 1px; /* harfler arasındaki boşlukları belirlememize yarar */
+   /* line-height: 150px; satırlar arasındaki boşlukları belirlememize yarar */
+   font-family: 'Charm', cursive;
+   /* white-space: nowrap; dışarıya taşan yazıyı kesiyor yani göstermiyor
+   overflow: hidden;
+   text-overflow: ellipsis; yukarıdaki yazıları kısaltıp ... koyar  */
+   margin: 1px; 
+   padding: 0px; 
+}
+
+#div3 p {
+   width: 100%;
+   font-size: 2vw;
+   /* yazıyı otomatik boyutlandırıyor */
+
+   text-align: center;
+   color: white;
+   text-shadow: 2px 2px 4px #000000;
+   font: bold;
+   font-family: 'Charm', cursive;
+   margin: 0; 
+   padding: 0px; 
+}
+
+/* 4.Part My Projects(4. foto) div4 */
+#div4 {  
+   background-image: url();
+   background-size: cover; 
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center;
+   margin: -7px;
+   border: 0px;
+   padding: 5% 10% 10% 10%;
+}
+
+/* başlık */
+#div4 #myprojects {
+   font-family: 'Yellowtail', cursive;
+   margin: 0;
+   padding: 1%;
+   border: 0;
+   font-size: 8vw;
+   text-align: center;
+   color:blue;
+   letter-spacing: 1px; /* harfler arasındaki boşlukları belirlememize yarar */
+   text-shadow: 2px 2px 2px gray;
+}
+
+/* açıklama ve fotonon olduğu divler */
+#div4a {
+   margin: 5% 6% 2% 0;
+   padding: 0;
+   width: 22%;
+   height: 70%;
+   float: left;
+   border: 5px solid green;
+   border-radius: 25px;
+   text-align: center;
+   font-size: 2vw;
+   color: rgb(122, 118, 118);
+}
+
+#div4b {
+   margin: 5% 7% 2% 7% ;
+   padding: 0;
+   width: 22%;
+   height: 70%;
+   float: left;
+   border: 5px solid blue;
+   border-radius: 25px;
+   text-align: center;
+   font-size: 2vw;
+   color: rgb(122, 118, 118);
+}
+
+#div4c {
+   margin: 5% 0 2% 6% ;
+   padding: 0;
+   width: 22%;
+   height: 70%;
+   float: left;
+   border: 5px solid rgb(170, 128, 11);
+   border-radius: 25px;
+   text-align: center;
+   font-size: 2vw;
+   color: rgb(122, 118, 118);
+}
+
+/* learn more kısmı arka plan rengi */
+#div4a h3 {
+   background-color:  green;
+}
+#div4b h3 {
+  background-color:  blue;
+}
+#div4c h3 {
+  background-color: rgb(170, 128, 11);
+}
+
+/* div içerisindeki açıklama kısımları */
+h4 {
+  margin: 0;
+  font-size: 2vw;
+  white-space: nowrap;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* overflow: hidden;
+  white-space: nowrap; dışarıya taşan yazıyı kesiyor yani göstermiyor
+  text-overflow: ellipsis; yazıları kısaltıp ... koyar  */
+}
+
+/* learn more yazı kısmı */
+h3 {
+   margin: 0;
+   width: 100%;
+   height: 17%;
+   background: green;
+   color: white;
+   border-radius: 0 0 19px 19px;
+}
+
+/* 5.part toTop (başa dön ikonu) */
+#basadonikon {
+   position: sticky; 
+   /* oluşturduğumuz kutu sabit kalıyor */
+   position: fixed;
+   left: 92%;
+   top: 82%; 
+   /* bu ne kadr boşluk olacağını gösterir */
+   width: 60px;
+   height: 60px; 
+   /* yukardakiler oluşturduğumuz kutunun ölçüleri */
+
+   /* position: fixed;  */
+   /* bu sayfada sabit kalır. pozisyonunu veririz orda kalır.bunu kullandıktan sonra sağ sol alt üst değerler vermeliyiz sağ üst veya sol alt değerler ayrı ayrı kullanılabilir */
+   
+   /* position:absolute; */
+   /* bu sayfayı alta doğru çekersek bu yukarda kalır */
+} 
+
+#basadonikon i{
+   color:rgb(56, 42, 252);
+   font-size: 4vw;
+}

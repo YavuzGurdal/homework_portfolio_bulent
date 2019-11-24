@@ -26,7 +26,9 @@
 
 /* 1.Part Wellcome (1.Foto) div1 */
 #div1 {
-   background-image: url("file:///C:/Users/y/Downloads/matt-dodd-l18iQ57ZvyE-unsplash.jpg");
+   /* background-image: url("file:///C:/Users/y/Downloads/matt-dodd-l18iQ57ZvyE-unsplash.jpg");*/
+   background-image: url("images/matt-dodd-l18iQ57ZvyE-unsplash.jpg");
+   /* file:///C:/Users/y/Desktop/odev_bulent_portfolyo/Elements/images/matt-dodd-l18iQ57ZvyE-unsplash.jpg */
    /* background-image: url(""); image için mutlaka url yazmalıyız */
 
    background-size: cover; /* ekranın tamamını kaplar */

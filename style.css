@@ -55,8 +55,9 @@
 
 /* 2.Part My Skills,Table (2.Foto) div2 */
 #div2 {
-   background-image: url("https://unsplash.com/photos/KcsKWw77Ovw");
-   /* background-image: url("images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg"); */
+   /* file:///C:/Users/y/Desktop/odev_bulent_portfolyo/Elements/images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg */
+  
+   background-image: url("images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;

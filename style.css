@@ -28,7 +28,6 @@
 #div1 {
    /* background-image: url("file:///C:/Users/y/Downloads/matt-dodd-l18iQ57ZvyE-unsplash.jpg");*/
    background-image: url("images/matt-dodd-l18iQ57ZvyE-unsplash.jpg");
-   /* file:///C:/Users/y/Desktop/odev_bulent_portfolyo/Elements/images/matt-dodd-l18iQ57ZvyE-unsplash.jpg */
    /* background-image: url(""); image için mutlaka url yazmalıyız */
 
    background-size: cover; /* ekranın tamamını kaplar */
@@ -57,7 +56,7 @@
 /* 2.Part My Skills,Table (2.Foto) div2 */
 #div2 {
    background-image: url("https://unsplash.com/photos/KcsKWw77Ovw");
-   /* background-image: url("file:///C:/Users/y/Downloads/nordwood-themes-KcsKWw77Ovw-unsplash.jpg"); */
+   /* background-image: url("images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg"); */
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
@@ -166,7 +165,7 @@ td {
 
 /* 3.Part About Me (3.Foto) div3 */
 #div3 { 
-   background-image: url("file:///C:/Users/y/Downloads/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg");
+   background-image: url("images/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg");
    background-size: cover;
    background-repeat: no-repeat; 
    height: 100vh; 
